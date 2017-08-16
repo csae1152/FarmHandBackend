@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.farmhand.clustering;
 
 import io.vertx.core.AbstractVerticle;
@@ -16,6 +11,9 @@ import java.util.UUID;
  */
 public class FarmHandVerticle extends AbstractVerticle {
     private static final String ID = UUID.randomUUID().toString();
+    private static final String message = "Hello from here";
+    private static final String body = "<h1></h1>";
+    
     
    @Override
   public void start(Future<Void> startFuture) throws Exception {
