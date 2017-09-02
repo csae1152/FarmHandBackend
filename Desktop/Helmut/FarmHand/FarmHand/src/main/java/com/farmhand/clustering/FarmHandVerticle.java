@@ -12,7 +12,7 @@ import java.util.UUID;
 public class FarmHandVerticle extends AbstractVerticle {
     private static final String ID = UUID.randomUUID().toString();
     private static final String message = "Hello from here";
-    private static final String body = "<h4>From port 80</h4>";
+    private static final String body = "<h1>From port 80</h1>";
     
     
    @Override
